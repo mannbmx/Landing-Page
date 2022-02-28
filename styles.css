@@ -9,8 +9,9 @@ body {
     justify-content: space-between;
     padding: 10px;
     margin: 0;
+    padding: 0 200px;
     background-color: #1F2937;
-    font: roboto;
+    font-family: roboto;
 }
 
 .logo{
@@ -18,6 +19,7 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     align-self: center;
+    font: roboto;
 }
 
 a {
