@@ -1,9 +1,11 @@
 body{
     margin: 0;
+    
 }
 
 .top {
     background-color: #1f2937;
+    font-family: sans-serif;
 }
 
 .header {
@@ -11,6 +13,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0 150px;
+    font-family: sans-serif;
 }
 
 .logo {
@@ -33,7 +36,7 @@ a,
 
 .content-one {
     display: flex;
-    padding: 0 150px;
+    padding: 50px 150px;
     flex-direction: row-reverse;
     justify-content: space-between;
     background-color: #1f2937;
@@ -41,16 +44,17 @@ a,
 
 .hero{
     max-width: 300px;
-    height: 300px;
+    height: 230px;
     flex: 1 1 auto;
     flex-wrap: wrap;
     align-self: center;
-
+    display: flex;
+    flex-direction: row;
 }
 
 .hero-img {
     max-width: 300px;
-    height: 200px;
+    height: 230px;
     flex: 1 1 auto;
     align-self: center;
     
@@ -66,9 +70,15 @@ a,
 
 }
 
+.hero-second {
+    margin: 0;
+}
+
 button {
     background-color: #3882f6;
     border-radius: 8px;
-    padding: 8px 20px;
+    padding: 5px 15px;
+    margin: 0;
+    flex: 
     
 }
