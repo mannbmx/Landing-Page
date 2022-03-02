@@ -37,7 +37,9 @@ a,
     display: flex;
     padding: 50px 150px;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
     background-color: #1f2937;
 }
 
@@ -72,8 +74,9 @@ a,
     
 }
 
-button {
+.hero-button {
     background-color: #3882f6;
+    color: #f9faf8;
     border-radius: 8px;
     padding: 5px 15px;
     margin: 0;
@@ -86,7 +89,7 @@ button {
     flex-direction: column;
     font-family: sans-serif;
     margin: 0;
-    padding: 0 150px;
+    padding: 100px 150px;
 }
 
 .info-header {
@@ -108,8 +111,13 @@ button {
     flex-wrap: wrap;
 }
 
+ul{
+    padding: 0;
+}
+
 img {
     width: 100%;
+    padding: 0;
 }
 
 li{
@@ -118,4 +126,56 @@ li{
     justify-content: space-between;
     text-align: center;
     color: lightgrey;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    padding: 0;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882f6;
+    margin: 100px 150px;
+    padding: 25px 40px;
+    border-radius: 12px;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+
+.call-words {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-self: center;
+}
+
+.call-header,
+.call-text {
+    margin: 0;
+}
+
+.call-button {
+    width: auto;
+    height: fit-content;
+    align-self: center;
+    padding: 8px 16px;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-radius: 8px;
+    background-color: #3882f6;
 }
